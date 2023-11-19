@@ -1,8 +1,8 @@
-namespace clase4.Models;
+namespace clase5.Models;
 
 public class Game
 {
-    public int Id {get; set;}
+     public int Id {get; set;}
     public string Name {get; set;}
     public int Realease {get; set;}
     public string Gender {get; set;}

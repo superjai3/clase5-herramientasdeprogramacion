@@ -252,3 +252,4 @@ C:\Users\andru\Documents\Herramientas-de-programacion\clase5\obj\Debug\net8.0\re
 C:\Users\andru\Documents\Herramientas-de-programacion\clase5\obj\Debug\net8.0\clase5.pdb
 C:\Users\andru\Documents\Herramientas-de-programacion\clase5\obj\Debug\net8.0\clase5.genruntimeconfig.cache
 C:\Users\andru\Documents\Herramientas-de-programacion\clase5\obj\Debug\net8.0\ref\clase5.dll
+C:\Users\andru\Documents\Herramientas-de-programacion\clase5\obj\Debug\net8.0\clase5.sourcelink.json

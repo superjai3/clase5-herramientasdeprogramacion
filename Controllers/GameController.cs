@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using clase4.Models;
+using clase5.Models;
 using clase5.Data;
 
 namespace clase5.Controllers
@@ -54,7 +54,7 @@ namespace clase5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Realease,Gender,IsMultiPlayer,Price")] Game game)
+        public async Task<IActionResult> Create([Bind("Id,Name,Realease,Gender,IsMultiPlayer,Price,Company")] Game game)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace clase5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Realease,Gender,IsMultiPlayer,Price")] Game game)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Realease,Gender,IsMultiPlayer,Price,Company")] Game game)
         {
             if (id != game.Id)
             {
