@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PY7ktQU37QVzuqRK5fO9eUy0K1mEoT2LwOLDnszA8gNii0PcRaA0KeWf43pRhqMVdD+DusOOqxUFyaDdAqFXOA==",
+  "dgSpecHash": "6fXHXEVGZHEZyRHIkoArAHZxgBW4Iljg08ELyoE+Ss1pjVL96W0ea/JNZ7eMO2EODcl+abB7ubKbj3lApn7BlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase5\\clase5.csproj",
+  "projectFilePath": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase6\\clase5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andru\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\andru\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

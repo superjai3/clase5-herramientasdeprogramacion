@@ -6689,11 +6689,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase5\\clase5.csproj",
+      "projectUniqueName": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase6\\clase5.csproj",
       "projectName": "clase5",
-      "projectPath": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase5\\clase5.csproj",
+      "projectPath": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase6\\clase5.csproj",
       "packagesPath": "C:\\Users\\andru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase5\\obj\\",
+      "outputPath": "C:\\Users\\andru\\Documents\\Herramientas-de-programacion\\clase6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andru\\AppData\\Roaming\\NuGet\\NuGet.Config"

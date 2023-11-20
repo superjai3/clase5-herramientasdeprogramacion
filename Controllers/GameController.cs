@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using clase5.Models;
 using clase5.Data;
+using clase5.ViewModels;
 
 namespace clase5.Controllers
 {
@@ -22,7 +18,25 @@ namespace clase5.Controllers
         // GET: Game
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Game.ToListAsync());
+            var gameListViewModel = new List<GameViewModel>();
+
+            if(_context.Game == null){
+                Problem("Emtity set 'VideoGameContext.Game' is null.");
+            }
+            var games = await _context.Game.ToListAsync();
+
+            foreach (var item in games)
+            {
+                gameListViewModel.Add(
+                    new GameViewModel{
+                        Name = item.Name,
+                        Company = item.Company,
+                        Gender = item.Gender,
+                        Release = item.Realease
+                    }       
+                );
+            }
+            return View(gameListViewModel);
         }
 
         // GET: Game/Details/5

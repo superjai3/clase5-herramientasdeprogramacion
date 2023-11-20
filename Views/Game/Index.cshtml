@@ -1,4 +1,6 @@
-@model IEnumerable<clase5.Models.Game>
+@model IEnumerable<clase5.ViewModels.GameViewModel>
+    //clase5.ViewModels.GameViewModel
+    //GameViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -16,16 +18,10 @@
                 @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Realease)
+                @Html.DisplayNameFor(model => model.Release)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Gender)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsMultiPlayer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Company)
@@ -39,18 +35,12 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Realease)
+                @Html.DisplayFor(modelItem => item.Release)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gender)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsMultiPlayer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-                        <td>
                 @Html.DisplayFor(modelItem => item.Company)
             </td>
             <td>
